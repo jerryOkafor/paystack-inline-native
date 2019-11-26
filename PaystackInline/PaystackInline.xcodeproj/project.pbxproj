@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48C77CC238D59A40011A352 /* PaystackKey.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48C77CB238D59A40011A352 /* PaystackKey.strings */; };
 		C496243D2381AD7B004AB4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496243C2381AD7B004AB4EB /* AppDelegate.swift */; };
 		C496243F2381AD7B004AB4EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496243E2381AD7B004AB4EB /* SceneDelegate.swift */; };
 		C49624412381AD7B004AB4EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49624402381AD7B004AB4EB /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C48C77CB238D59A40011A352 /* PaystackKey.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = PaystackKey.strings; sourceTree = "<group>"; };
 		C49624392381AD7B004AB4EB /* PaystackInline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaystackInline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496243C2381AD7B004AB4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C496243E2381AD7B004AB4EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C49624452381AD7F004AB4EB /* Assets.xcassets */,
 				C49624472381AD7F004AB4EB /* LaunchScreen.storyboard */,
 				C496244A2381AD7F004AB4EB /* Info.plist */,
+				C48C77CB238D59A40011A352 /* PaystackKey.strings */,
 			);
 			path = PaystackInline;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48C77CC238D59A40011A352 /* PaystackKey.strings in Resources */,
 				C49624492381AD7F004AB4EB /* LaunchScreen.storyboard in Resources */,
 				C49624462381AD7F004AB4EB /* Assets.xcassets in Resources */,
 				C49624442381AD7B004AB4EB /* Main.storyboard in Resources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45ZGNV2NAU;
 				INFOPLIST_FILE = PaystackInline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45ZGNV2NAU;
 				INFOPLIST_FILE = PaystackInline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
